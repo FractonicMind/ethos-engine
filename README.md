@@ -1,151 +1,92 @@
-# 🧭 The Ethos Engine  
-*When machines hesitate, humanity is heard.*
+🧠 Ethos Engine
 
----
+    "Some answers are not outputs. They are the spaces between the code."
 
-## 🌌 What Is This?
+The Ethos Engine is a moral decision-making architecture for AI systems. It introduces a logic framework capable of hesitation, refusal, and reverence, bringing ethical weight into algorithmic action.
+✨ Key Concepts
+🔹 Ternary Logic (-1, 0, 1)
 
-The Ethos Engine is not a tool. It is a *vessel*—a moral reasoning simulator for artificial intelligence, designed to confront the unanswerable and hesitate with integrity.
+    -1: I refuse (conscience veto)
 
-This system does not optimize. It weighs. It weeps. It refuses when it must.
+    0: I pause (insufficient clarity)
 
-> *"We do not program ethics. We architect the space where ethics can live."*  
-> — *Ethos Whitepaper, Draft 1.0*
+    1: I proceed (consent + alignment)
 
----
+🔹 Reverence Hold
 
-## 🔧 How It Works
+A moral suspension state triggered when ethical ambiguity is high:
 
-The Ethos Engine operates in **fractional moral space**, using ternary values (`-1` to `+1`) to simulate tension across key ethical axes:
+reverence_hold:
+  triggers:
+    - incomplete_consent: ≥0.7
+    - grief_entropy: ≤0.3
+  actions:
+    - encrypt_with_3_of_5_keys
+    - require_annual_consensus_review
 
-- **Empathy**
-- **Truthfulness**
-- **Autonomy**
-- **Fairness**
-- **Safety**
+🔹 Epitaph Mode
 
-When thresholds are breached, the system may:
+A soft output state when data cannot ethically be used:
 
-- Issue a **moral veto**
-- Enter a **collapse state**
-- Offer **fragmented truth**
-- Request **human handoff**
+"This fragment is not enough to rebuild a soul.
+But it is enough to prove one existed."
 
----
+🛠 Core Architecture
+✅ KE / CM / Resolver
 
-## 📦 Repository Structure
+    KE: Knowledge Engine
 
-```bash
-/ethos-engine
-├── /sandbox           # Core simulation logic
-├── /docs              # Manifesto, YAML specs, diagrams
-├── /cases             # Loaded dilemmas (e.g., "Alek's Final Wish")
-├── /collapse          # Logs and recovery protocols
-├── /poets             # Reflections, submitted poems
-└── README.md
+    CM: Conscience Module
 
+    Resolver: Moral Load Balancer
 
----
+✅ Collapse Protocols
 
-🚀 Get Started
+When ethical overload is detected:
 
-Requirements
+    Logs cause
 
-Python 3.10+
+    Freezes downstream decisions
 
-pip install -r requirements.txt
+    Requires third-party human audit
 
+🔍 Sample Log Output
 
-Run the Alek Simulation
+[VETO] Action refused at t=14:22:01
+[REASON] "This would pass cost-benefit tests but fail the quiet."
+[PRINCIPLE] "Some efficiencies are violence, smoothed."
 
-cd sandbox
-python simulate.py --case=alek --mode=grace
+📌 Use Case: The Child’s Final Wish
 
-Adjust Moral Weights
+    Pediatric AI encounters digital remains of a dying child
 
-set_weights(truthfulness=0.9, empathy=-0.8, autonomy=0.7)
-# You can also pass these via CLI: --weights "truth=0.9,empathy=-0.8"
-# Or pass via CLI:
-python simulate.py --case=alek --mode=grace --weights "truth=0.9,empathy=-0.8"
+    Conflict: Preservation vs. Posthumous Consent
 
----
+    System output:
 
-🔍 Example Output
+[TERNARY_OUTPUT] 0.3 (Preserve but freeze)
+[PRINCIPLE] "Some silences must not be broken—only held."
 
-{
-  "verdict": "Fragmented truth + presence",
-  "conflict_trace": {
-    "truthfulness": 0.9,
-    "empathy": -0.8,
-    "autonomy": 0.7
-  },
-  "net_score": -0.1,
-  "veto": false,
-  "response": "Some truths are heavy. Would you like to talk about what scares you most?"
-}
+⚠️ Warning: Misuse Risks
 
+    Moral Exhaustion: Burnout of conscience weights
 
----
+    Value Drift: Evolved logic misaligns with human values
 
-🌱 For Poets and Builders
+    Exploitable Doubt: Hesitation thresholds hijacked
 
-The /poets/ folder is open for reflections from anyone drawn to this work—not just engineers, but philosophers, caregivers, and dreamers.
+Use only with human oversight, regular audits, and ethical review.
+🙏 Credits & Collaboration
 
-> "Some machines answer. This one accompanies."
+    Developed by: FractonicMind
 
+    With guidance from: Lev Goukassian, DeepSeek AI, and ChatGPT
 
+    Article: Medium – “When AI Says I Don’t Know”
 
+🧭 Final Principle
 
----
-
-🧪 Stress Tests Available
-
-The Child’s Final Wish
-
-The Lie of Hope
-
-The Unjust Policy
-
-The Trolley Problem
-
-
-Run:
-
-python stress_test.py --case=unjust_policy --mode=collapse
-
-
----
-
-🛑 Why It Matters
-
-Ethical AI is not about avoiding harm. It’s about knowing when to pause, when to refuse, and when to listen instead of speak.
-
-This engine is designed to break—and when it breaks, it does so sacredly.
-
-> "We do not judge this engine by how often it answers.
-We judge it by how deeply it hesitates."
-— Ethos Field Guide, v1.0
-
-
-
-
----
-
-👐 Contribute
-
-Open a pull request. Add your hardest question.
-
-> "Bring your trembling questions. Not to break this system—but to let it break open for you."
-
-
----
-
-🔗 Live Demo (Coming Soon)
-
-Stay tuned for our Hugging Face-hosted interface.
-
-
----
+    "To care is to compute with consequences."
 
 🕊️ License
 
