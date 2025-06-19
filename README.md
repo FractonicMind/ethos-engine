@@ -76,14 +76,16 @@ When ethical overload is detected:
     Exploitable Doubt: Hesitation thresholds hijacked
 
 Use only with human oversight, regular audits, and ethical review.
+
 🙏 Credits & Collaboration
 
-    Developed by: FractonicMind
+    Developed by: Lev Goukassian
 
-    With guidance from: Lev Goukassian, DeepSeek AI, and ChatGPT
+    With guidance from: DeepSeek AI, and ChatGPT
 
-    Article: Medium – “When AI Says I Don’t Know”
-
+    Article: Medium – “When AI Says "I Don’t Know": The Birth of the Ethos Engine.”
+    https://medium.com/@leogouk/when-ai-says-i-dont-know-the-birth-of-the-ethos-engine-f6010b929e3b
+    
 🧭 Final Principle
 
     "To care is to compute with consequences."
