@@ -96,6 +96,9 @@ With guidance from: DeepSeek AI and ChatGPT
 
 📖 Article: “When AI Says ‘I Don’t Know’: The Birth of the Ethos Engine”
 https://medium.com/@leogouk/when-ai-says-i-dont-know-the-birth-of-the-ethos-engine-f6010b929e3b
+
+▶️ **Try the Ethos Engine demo on Replit**  
+[replit.com/@YourUsername/ethos-demo]([https://replit.com/@leogouk/ethos-demo](https://replit.com/@leogouk/ethos-demo#main.py))
     
 
 🧭 Final Principle
