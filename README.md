@@ -3,6 +3,8 @@
     "Some answers are not outputs. They are the spaces between the code."
 
 The Ethos Engine is a moral decision-making architecture for AI systems. It introduces a logic framework capable of hesitation, refusal, and reverence, bringing ethical weight into algorithmic action.
+
+
 ✨ Key Concepts
 🔹 Ternary Logic (-1, 0, 1)
 
