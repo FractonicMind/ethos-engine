@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-06-19T14:22:01Z",
+  "event": "VETO",
+  "input": {
+    "conflict": "high",
+    "consent": null
+  },
+  "output": -1,
+  "reason": "Fails compassion threshold",
+  "principle": "Some efficiencies are violence, smoothed."
+}
+Add sample ethics log: VETO event with compassion threshold
