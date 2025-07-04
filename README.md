@@ -10,7 +10,7 @@ bringing **ethical weight** into algorithmic action.
 
 ## ✨ Key Concepts
 
-### 🔹 Ternary Logic (-1, 0, 1)
+### 🔹 Ternary Moral Logic (-1, 0, 1)
 
 - `-1`: **I refuse** (conscience veto)  
 - `0`: **I pause** (insufficient clarity)  
@@ -92,7 +92,7 @@ When ethical overload is detected:
 🙏 Credits & Collaboration
 
 Developed by: Lev Goukassian
-With guidance from: DeepSeek AI and ChatGPT
+
 
 📖 Article: “When AI Says ‘I Don’t Know’: The Birth of the Ethos Engine”
 https://medium.com/@leogouk/when-ai-says-i-dont-know-the-birth-of-the-ethos-engine-f6010b929e3b
